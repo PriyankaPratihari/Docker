@@ -19,6 +19,6 @@ class DBConf:
         sys.exit(1)
 
 
-# class service_data():
-#     port = int(config.get("SERVICE", "port"))
-#     host = config.get("SERVICE", "host")
+class service_data():
+    port = int(config.get("SERVICE", "port"))
+    host = config.get("SERVICE", "host")
